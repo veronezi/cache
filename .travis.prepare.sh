@@ -6,6 +6,4 @@ sed -i 's/my_password/'"$BINTRAY_PASSWORD"'/g' $HOME/.m2/settings.xml
 
 mvn clean -q
 mvn -q versions:set -DnewVersion=$MY_VERSION-b$TRAVIS_BUILD_NUMBER
-git status
-cat pom.xml
-
+git diff
