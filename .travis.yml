@@ -1,0 +1,21 @@
+dist: trusty
+language: java
+install: true
+
+cache:
+  directories:
+  - $HOME/.m2
+
+env:
+  global:
+  - MY_VERSION=0.0.1
+
+before_install:
+- bash .travis.prepare.sh
+
+script:
+- bash .travis.build.sh
+- bash .travis.deploy.sh
+
+after_script:
+- bash .travis.cleanup.sh
