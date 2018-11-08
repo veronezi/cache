@@ -1,8 +1,5 @@
 #!/bin/bash
 set -e
 
-mvn versions:revert
-rm $HOME/.m2/settings.xml
-
-
-
+mvn --settings /tmp/.travis.settings.xml versions:revert
+rm /tmp/.travis.settings.xml

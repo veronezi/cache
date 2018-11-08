@@ -2,7 +2,7 @@
 set -e
 
 echo "building and installing the java binaries"
-mvn install
+mvn --settings /tmp/.travis.settings.xml install
 
 echo "running the maven tests"
-mvn test
+mvn --settings /tmp/.travis.settings.xml test

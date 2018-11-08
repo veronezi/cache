@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
 
-mvn deploy
+mvn --settings /tmp/.travis.settings.xml deploy
 
 echo "binaries uploaded"
