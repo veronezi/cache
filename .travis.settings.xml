@@ -8,11 +8,6 @@
             <username>tveronezi</username>
             <password>my_password</password>
         </server>
-        <server>
-            <id>bintray-tveronezi-pretests</id>
-            <username>tveronezi</username>
-            <password>my_password</password>
-        </server>
     </servers>
 
     <profiles>
