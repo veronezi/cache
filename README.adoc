@@ -1,6 +1,6 @@
 = TODO
 
-image:https://travis-ci.org/veronezi/karaoke.svg?branch=master["Build Status", link="https://travis-ci.org/veronezi/karaoke"]
+image:https://travis-ci.org/veronezi/cache.svg?branch=master["Build Status", link="https://travis-ci.org/veronezi/cache"]
 
 == Dependency
 
