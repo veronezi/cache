@@ -37,13 +37,6 @@
                     <url>https://dl.bintray.com/tveronezi/public</url>
                 </pluginRepository>
             </pluginRepositories>
-            <distributionManagement>
-                <repository>
-                    <id>bintray-tveronezi-public</id>
-                    <name>tveronezi-public</name>
-                    <url>https://api.bintray.com/maven/tveronezi/public/samples/</url>
-                </repository>
-            </distributionManagement>
             <id>bintray</id>
         </profile>
     </profiles>

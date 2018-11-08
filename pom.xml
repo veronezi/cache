@@ -33,5 +33,12 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+    <distributionManagement>
+        <repository>
+            <id>bintray-tveronezi-public</id>
+            <name>tveronezi-public</name>
+            <url>https://api.bintray.com/maven/tveronezi/public/samples/</url>
+        </repository>
+    </distributionManagement>
 </project>
 
