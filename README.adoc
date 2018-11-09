@@ -1,30 +1,9 @@
-= TODO
+= CACHE
 
 image:https://travis-ci.org/veronezi/cache.svg?branch=master["Build Status", link="https://travis-ci.org/veronezi/cache"]
-
-== Dependency
-
-1. >= Maven 3.5.2
-1. >= Java 1.8.0_162
-1. >= Docker 18.03.0-ce
-1. Musixmatch API dev token (Create one here: https://developer.musixmatch.com/)
 
 == How to build it?
 
 ```
-export musixmatch_api_key=[your key here]
 mvn clean install
 ```
-
-== How to run it?
-
-```
-export musixmatch_api_key=[your key here]
-docker-compose up
-```
-
-Then open http://localhost
-
-== Resources
-
-1. https://developer.musixmatch.com/documentation
